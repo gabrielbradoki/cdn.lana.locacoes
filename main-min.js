@@ -1,0 +1,1 @@
+$(".menu-trigger").click(function(){$(".menu-main__visible").toggleClass("hide")});
