@@ -1,1 +1,1 @@
-$(".menu-trigger").click(function(){$(".menu-main__visible").toggleClass("hide")});
+$(document).ready(function(){$(".menu-trigger").click(function(e){e.preventDefault(),$("> .fas").toggleClass("rotate"),$(".menu-main__visible").toggleClass("hide")}),$(".search-trigger").click(function(e){e.preventDefault(),$(".search-bar").toggleClass("hide"),$(this).toggleClass("hide")})});
